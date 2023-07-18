@@ -20,7 +20,7 @@ we visualize our training details via wandb (https://wandb.ai/site).
 ## training
 
 our code is trained using one nvidia A6000, but our code also supports distributed data parallel mode in pytorch. We
-set batch_size=8 for all the experiments, with learning rate 7.5e-6 and 700 * 700 resolution.
+set batch_size=8 for all the experiments, with learning rate 7.5e-5 and 700 * 700 resolution.
 
 ### checkpoints
 
